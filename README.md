@@ -2,7 +2,7 @@
 
 ![noQ](https://noq.nu/wp-content/uploads/2024/04/Logotyp_PNG-300x169.png)
 
-# noQ Frontend (Vite & React)
+# noQ Frontend (Vite & React) #
 
 ### Prerequisites for Running the Project
 
