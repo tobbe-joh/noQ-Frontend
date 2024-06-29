@@ -12,6 +12,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
+     
+      - name: Output Node.js version
+        run: node -v
+
       - name: Install dependencies
         run: npm install
 
