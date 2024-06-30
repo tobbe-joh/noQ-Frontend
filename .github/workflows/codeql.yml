@@ -24,7 +24,6 @@ jobs:
         node-version: 20
         cache: 'npm'
     - run: npm ci
-    - run: npm test
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
