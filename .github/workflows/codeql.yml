@@ -2,11 +2,9 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [stage, 1.5]
+    branches: [stage]
   pull_request:
-    branches: [stage, 1.5]
-  schedule:
-    - cron: '0 13 * * 0'
+    branches: [stage]
 
 jobs:
   analyze:
@@ -22,7 +20,6 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: 20
-        cache: 'npm'
     - run: npm ci
 
     - name: Initialize CodeQL
